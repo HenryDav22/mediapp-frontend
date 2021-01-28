@@ -1,0 +1,30 @@
+<mat-toolbar style="align-content: center;">Perfil Usuario Logeado</mat-toolbar>
+
+
+<mat-card>
+  <mat-card-content>
+    <div class="row">
+      <h1>
+        Nombre de Usuario:
+      </h1>
+
+      <h3>
+        {{loginService.nombreUsuarioLogeado}}
+      </h3>
+    </div>
+    <mat-divider></mat-divider>
+
+    <div class="row">
+      <h1>
+        Rol asignado:
+      </h1>
+
+      <h3>
+        {{loginService.rolUsuarioLogeado}}
+      </h3>
+    </div>
+    <mat-divider></mat-divider>
+
+  </mat-card-content>
+
+</mat-card>
